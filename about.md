@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-提笔忘言，留待来时。
+提笔已忘意。

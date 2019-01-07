@@ -27,13 +27,17 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-feed (0.11.0)
+    jekyll-feed (0.10.0)
       jekyll (~> 3.3)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.5.0)
       jekyll (~> 3.3)
+    jekyll-theme-mint (1.0.2)
+      jekyll (~> 3.8)
+      jekyll-feed (~> 0.10.0)
+      jekyll-seo-tag (~> 2.5.0, >= 2.5.0)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -48,8 +52,13 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     multi_json (1.13.1)
+    paper-stack (0.1.0)
+      jekyll (~> 3.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
+    pixyll_ashawley (2.9.0)
+      jekyll (~> 3.3)
+      jekyll-paginate (~> 1.1)
     public_suffix (3.0.3)
     pygments.rb (1.2.1)
       multi_json (>= 1.0.0)
@@ -64,6 +73,11 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    tale (0.1.5)
+      jekyll (~> 3.6)
+      jekyll-feed (~> 0.10.0)
+      jekyll-paginate (~> 1.1)
+      jekyll-seo-tag (~> 2.5.0)
 
 PLATFORMS
   ruby
@@ -73,9 +87,13 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-paginate
   jekyll-seo-tag
+  jekyll-theme-mint
   kramdown
   minima (~> 2.0)
+  paper-stack
+  pixyll_ashawley
   pygments.rb
+  tale
   tzinfo-data
 
 BUNDLED WITH
