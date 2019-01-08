@@ -24,7 +24,8 @@ github_username:  shotolee
 
 # Build settings
 markdown: kramdown
-theme: tale
+theme: minima
+
 plugins:
   - jekyll-feed
 
