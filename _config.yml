@@ -24,7 +24,7 @@ github_username:  shotolee
 
 # Build settings
 markdown: kramdown
-theme: chesterhow/tale
+theme: tale
 
 permalink: /:year-:month-:day/:title
 paginate: 5
