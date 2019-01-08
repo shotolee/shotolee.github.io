@@ -24,8 +24,13 @@ github_username:  shotolee
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: tale
+
+permalink: /:year-:month-:day/:title
+paginate: 5
 plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
   - jekyll-feed
 
 # Exclude from processing.
