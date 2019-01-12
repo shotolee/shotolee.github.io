@@ -15,5 +15,5 @@ permalink: /about/
 
 *觉得我写得不错的也可以关注下我的微信公众号，与博客同名：途中笔记。*
 
-![途中笔记扫描二维码]({{ site.url }}/asset/qrcode.jpg)
+![途中笔记扫描二维码](../asset/qrcode.jpg)
 微信扫码关注
