@@ -24,10 +24,10 @@ github_username:  shotolee
 
 # Build settings
 markdown: kramdown
-remote_theme: chesterhow/tale
+# remote_theme: jekyll-theme-kagami
 
-permalink: /:categories/:title/
-#permalink: /:year-:month-:day/:title
+# permalink: /:categories/:title/
+permalink: /:year-:month-:day/:title
 paginate: 6
 
 plugins:
@@ -35,6 +35,8 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
   
+theme: jekyll-theme-kagami
+
 #Google Analytics
 google_analytics: UA-51240684-1
 
@@ -42,8 +44,8 @@ google_analytics: UA-51240684-1
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
-#   - Gemfile
-#   - Gemfile.lock
+  # - Gemfile
+  # - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/

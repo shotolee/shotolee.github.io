@@ -15,11 +15,12 @@ gem 'kramdown'
 gem 'pygments.rb'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.0"
+# gem "minima", "~> 2.0"
 #gem "pixyll_ashawley"
-#gem "jekyll-theme-mint"
-#gem "paper-stack"
-gem "tale"
+# gem "jekyll-theme-mint"
+# gem "paper-stack"
+# gem "tale"
+gem "jekyll-theme-kagami"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
