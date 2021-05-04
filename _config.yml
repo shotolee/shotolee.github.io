@@ -17,7 +17,7 @@
 title: Shoto.Lee
 email: shotolee@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-'s small black area.
+A small black area.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://shotolee.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: shoto_lee
